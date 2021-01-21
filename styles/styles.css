@@ -182,10 +182,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
 }
 
 footer p {
