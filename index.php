@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Yelder Da Silva">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi portafolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!--Fuente Philosopher-->
-    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
     <!-- el contenido del encabezado del sitio va aquí -->
-    <header>
-        <div class="logo">
-            <a href='https://yelder.herokuapp.com'><img src="images/logo.png" width="100%" height="100%"></a>
-        </div>
-        <div class="iconos">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/yelderdasilva/"> <img src="images/iconos/linkedin.png"
-                            width=40px height="40px"></a></li>
-                <li><a href="https://www.instagram.com/yelderalexander/"> <img src="images/iconos//instagram.png"
-                            width=35px height="40px"></a></li>
-                <li><a href="https://www.facebook.com/yelder"> <img src="images/iconos//facebook.png" width=35px
-                            height="40px"></a></li>
-            </ul>
-        </div>
+    <?php include 'includes/header.php'; ?>
 
-    </header>
     <!-- el menú de navegación va aquí -->
     <nav id="inicio">
         <ul>
@@ -103,13 +75,9 @@
                 y tengo inglés medio</p><br>
             <a href="#">Leer más...</a>
         </article>
-
-        <!-- el contenido del pie de página va aquí -->
     </section>
-
-    <footer>
-        <p> © Copyright Yelder Da Silva, contacto: yelder302@gmail.com</p>
-    </footer>
+     <!-- el contenido del pie de página va aquí -->
+     <?php include 'includes/footer.php'; ?>
 </body>
 
 

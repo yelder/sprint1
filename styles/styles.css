@@ -110,7 +110,6 @@ nav ul li a:hover {
   text-decoration: none;
   font-weight: bold;
   color: #303133;
-  margin-left: 40%;
 }
 
 .new-cards a:hover {
@@ -188,4 +187,27 @@ footer {
 footer p {
   padding: 0;
   margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li {
+    width: 60%;
+  }
+  nav ul li a {
+    padding-right: 100px;
+  }
+
+  .new-cards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 220px;
+  }
+  .new-cards article {
+    width: 50%;
+    margin-left: 20px;
+  }
 }
