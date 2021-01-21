@@ -178,11 +178,13 @@ nav ul li a:hover {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   margin-top: 25px;
   height: 70px;
   background-color: #303133;
   color: white;
-  widows: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
