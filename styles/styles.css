@@ -174,7 +174,7 @@ nav ul li a:hover {
 }
 
 .container-secundario {
-  height: cal(100vh-195px);
+  min-height: calc(100vh-195px);
 }
 
 footer {
