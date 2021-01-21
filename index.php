@@ -6,8 +6,8 @@
     <nav id="inicio">
         <ul>
             <li><a href="#inicio">Inicio</a></li>
-            <li><a href="./portafolio.html">Portafolio</a></li>
-            <li><a href="./curriculo.html">Currículo</a></li>
+            <li><a href="./portafolio.php">Portafolio</a></li>
+            <li><a href="./curriculo.php">Currículo</a></li>
             <li><a href="#proyectos">Proyectos</a></li>
             <li><a href="#sobremi">Sobre mi</a></li>
         </ul>
