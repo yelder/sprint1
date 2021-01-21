@@ -187,6 +187,7 @@ footer {
 footer p {
   padding: 0;
   margin: 0;
+  position: fixed;
 }
 
 @media screen and (max-width: 600px) {
